@@ -16,7 +16,7 @@ DROPLINK_API = os.environ.get("DROPLINK_API")
 MDISK_API = os.environ.get("MDISK_API", "RX2H62ggETMf03f3UlIB")
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split("5869058469")) if os.environ.get("ADMINS") else []
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Ganeshgujjarbot")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Ganeshmoury7797:97541152@cluster0.kodqjqk.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URL = os.environ.get("DATABASE_URL", "DATABASE_URL")
 WEBSITE = os.environ.get('WEBSITE')
 
 #  Optionnal variables
