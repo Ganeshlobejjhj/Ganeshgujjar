@@ -13,7 +13,7 @@ API_ID = int(os.environ.get("API_ID", "26087474"))
 API_HASH = os.environ.get("API_HASH", "6cb2476b909143dd86826dc761f1c508")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "BOT_token")
 DROPLINK_API = os.environ.get("DROPLINK_API")
-MDISK_API = os.environ.get("MDISK_API", "RX2H62ggETMf03f3UlIB")
+MDISK_API = os.environ.get("MDISK_API", "kAoGIjIeWwJPJGhhtXa2")
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("ADMINS") else []
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "GaneshMovies")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://ganeshtele:99266020@cluster0.iyezkvs.mongodb.net/?retryWrites=true&w=majority")
